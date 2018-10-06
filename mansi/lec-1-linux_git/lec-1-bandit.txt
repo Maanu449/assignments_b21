@@ -76,3 +76,22 @@ sort data.txt | uniq -c
 exit
 ssh -p 2220 bandit9@bandit.labs.overthewire.org
 password: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+
+LEVEL 9->10
+strings data.txt | grep ====
+ssh -p 2220 bandit10@bandit.labs.overthewire.org
+password: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+LEVEL 10->11
+cat data.txt | base64 --decode
+ssh -p 2220 bandit11@bandit.labs.overthewire.org
+password: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+LEVEL 11->12
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+ssh -p 2220 bandit12@bandit.labs.overthewire.org
+password: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+LEVEL 12->13
+
