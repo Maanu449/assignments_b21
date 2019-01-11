@@ -94,4 +94,10 @@ ssh -p 2220 bandit12@bandit.labs.overthewire.org
 password: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
 
 LEVEL 12->13
-
+gunzip, bzip2 -d, md file.out file2.gz, gunzip file2.gz
+tar xvf ---> for POSIX tar archive
+gunzip <file> ---> for .gz file
+bzip2 -d <file> ---> for bzip2 compressed data
+mv file1.out file2.gz
+ssh -p 2220 bandit13@bandit.labs.overthewire.org
+password: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
