@@ -101,3 +101,18 @@ bzip2 -d <file> ---> for bzip2 compressed data
 mv file1.out file2.gz
 ssh -p 2220 bandit13@bandit.labs.overthewire.org
 password: 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+LEVEL 13->14
+ls
+cat sshkey.private
+copy file's content to new file (let ab.txt) on your system (after exiting from ssh)
+chmod 600 ab.txt
+ssh -p 2220 -i ab.txt bandit14@bandit.labs.overthewire.org
+
+LEVEL 14->15
+cat /etc/bandit_pass/bandit14
+'copy text'
+telnet 127.0.0.1 30000
+'paste text'
+ssh -p 2220 bandit15@bandit.labs.overthewire.org
+password: BfMYroe26WYalil77FoDi9qh59eK5xNr
