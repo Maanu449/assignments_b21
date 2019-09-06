@@ -116,3 +116,20 @@ telnet 127.0.0.1 30000
 'paste text'
 ssh -p 2220 bandit15@bandit.labs.overthewire.org
 password: BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+LEVEL 15->16
+openssl s_client -connect localhost:30001
+put password of 14->15 
+ssh -p 2220 bandit16@bandit.labs.overthewire.org
+password: cluFn7wTiGryunymYOu4RcffSxQluehd
+
+LEVEL 16->17
+nmap -p31000-32000 127.0.0.1
+openssl s_client -connect localhost:31790
+put passowrd of 15->16
+ssh -p 2220 -i ab.txt bandit17@bandit.labs.overthewire.org
+
+LEVEL 17->18
+diff passwords.new passwords.old
+ssh -p 2220 bandit18@bandit.labs.overthewire.org
+password: kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
