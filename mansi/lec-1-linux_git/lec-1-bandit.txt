@@ -143,3 +143,12 @@ level 19->20
 ./bandit20-do cat /etc/bandit_pass/bandit20
 ssh -p 2220 bandit20@bandit.labs.overthewire.org
 password: GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+level 20->21
+nc -l -p 31000 ----- in one tab
+and paste password 'GbKksEFF4yrVs6il55v6gwY5aVje5f0j' here and enter
+tab 2: ./suconnect 31000
+see tab1 for next password
+ssh -p 2220 bandit21@bandit.labs.overthewire.org
+password:gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
