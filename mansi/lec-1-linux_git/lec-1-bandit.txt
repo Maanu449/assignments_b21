@@ -133,3 +133,9 @@ LEVEL 17->18
 diff passwords.new passwords.old
 ssh -p 2220 bandit18@bandit.labs.overthewire.org
 password: kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+level 18->19
+ssh -t -p 2220 bandit18@bandit.labs.overthewire.org cat readme
+ssh -p 2220 bandit19@bandit.labs.overthewire.org
+password: IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
