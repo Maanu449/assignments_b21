@@ -152,3 +152,10 @@ see tab1 for next password
 ssh -p 2220 bandit21@bandit.labs.overthewire.org
 password:gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
 
+level 21->22
+cd /etc/cron.d/
+cat cronjob_bandit22
+cat /usr/bin/cronjob_bandit22.sh
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+ssh -p 2220 bandit22@bandit.labs.overthewire.org
+password: Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
