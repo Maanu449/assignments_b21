@@ -193,3 +193,8 @@ password:UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
 
 level 24->25
 password: uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+
+level 25->26
+grep "bandit26" /etc/passwd
+bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext
