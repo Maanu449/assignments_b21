@@ -189,3 +189,7 @@ chmod 777 a.txt
 cp a.sh /var/spool/bandit24
 ssh -p 2220 bandit24@bandit.labs.overthewire.org
 password:UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+
+level 24->25
+password: uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
