@@ -198,3 +198,40 @@ password: uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
 level 25->26
 grep "bandit26" /etc/passwd
 bandit26:x:11026:11026:bandit level 26:/home/bandit26:/usr/bin/showtext
+cat /usr/bin/showtext
+resize to smalll
+ssh -i bandit26.sshkey bandit26@localhost
+press 'v'
+type   :set shell=/bin/bash
+:shell
+
+
+level 26->27
+ls
+./bandit27-do cat /etc/bandit_pass/bandit27
+ssh bandit27@localhost
+password:3ba3118a22e93127a4ed485be72ef5ea
+
+level 27->28
+make folder in tmp
+inside it: git clone <path>
+enter password
+cd repo
+cat README
+ssh bandit28@localhost
+password:0ef186ac70e04ea33b4c1853d2526fa2
+
+level 28->29
+make folder in tmp
+inside it: git clone <path>
+enter password
+cd repo
+cat README
+git log
+git checkout 186a1038cc
+cat readme
+ssh bandit29@localhost
+password: bbc96594b4e001778eee9975372716b2
+
+level 29->30
+
