@@ -234,4 +234,12 @@ ssh bandit29@localhost
 password: bbc96594b4e001778eee9975372716b2
 
 level 29->30
+git clone
+git checkout dev
+cat readme
+ssh bandit30@localhost
+password: 5b90576bedb2cc04c86a9e924ce42faf
+
+level 30->31
+git clone
 
