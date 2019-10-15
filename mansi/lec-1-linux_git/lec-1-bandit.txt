@@ -242,4 +242,8 @@ password: 5b90576bedb2cc04c86a9e924ce42faf
 
 level 30->31
 git clone
+git tag -l
+git show secret
+ssh bandit31@localhost
+password: 47e603bb428404d265f59c42920d81e5
 
